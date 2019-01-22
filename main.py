@@ -28,8 +28,6 @@ def map_labels(filename, out):
         json.dump(mapping, of)
 
 
-random.seed(0)
-
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--file', required=True, help='input file')
 parser.add_argument('-w', '--lv_word', help='word level output')
